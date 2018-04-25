@@ -1,0 +1,119 @@
+.food_item{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Courier New", Courier, monospace;
+}
+.food_link{
+  text-decoration: none;
+  color: #0ff;
+  text-shadow:
+  0 0 1px #fff,
+  0 0 8px #0ff,
+  0 0 16px #0ff;
+  margin: 50px;
+  text-align: center;
+}
+.food_link:hover{
+  color: white;
+  text-shadow:
+  0 0 1px #0ff,
+  0 0 8px #0ff,
+  0 0 16px #0ff;
+}
+.food_list_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food_ingredients_wrapper{
+  width: 30%;
+  margin-bottom: 20px;
+}
+.food_instructions_wrapper{
+  width: 30%;
+  margin-bottom: 20px;
+}
+.food_link_wrapper{
+  position: relative;
+  padding-bottom: 30px;
+}
+.food_header_wrapper{
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 1200px) {
+  .food_header{
+    height: 500px;
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .food_item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: initial;
+    justify-content: center;
+  }
+  .food_header_wrapper{
+    width: 30%;
+    height: 30vw;
+    order: 2;
+  }
+  .food_instructions_wrapper{
+    width: 35%;
+    order: 3;
+  }
+  .food_ingredients_wrapper{
+    width: 35%;
+    order: 1;
+  }
+  .food_link_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: absolute;
+    top: 80%;
+  }
+  .food_link{
+    margin: 0 0 20px 0 ;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .food_header_wrapper{
+    width: 400px;
+    height: 400px;
+  }
+  .food_instructions_wrapper{
+    width: 90%;
+  }
+  .food_ingredients_wrapper{
+    width: 90%;
+  }
+  .food_link{
+    margin: 0 0 20px 0;
+  }
+  .food_link_wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .food_header_wrapper {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .food_header_wrapper {
+    width: 80%;
+
+  }
+}

@@ -1,0 +1,10 @@
+.food_ingredients_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}

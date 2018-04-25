@@ -1,0 +1,8 @@
+.food_container{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url('/media/images/foodContainer_background.png');
+}

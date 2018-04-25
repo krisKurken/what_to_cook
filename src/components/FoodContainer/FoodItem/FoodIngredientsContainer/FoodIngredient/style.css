@@ -1,0 +1,19 @@
+.food_ingredients{
+  display: flex;
+  align-items: center;
+  margin: 2px;
+  padding: 1px;
+  width: 300px;
+  border-bottom: .5px solid #e5e5e5;
+  text-align: left;
+}
+.food_ingredient{
+  width: 60%;
+  margin: 0;
+  display: inline-block;
+}
+.food_measurement{
+  width: 40%;
+  margin: 0;
+  display: inline-block;
+}
