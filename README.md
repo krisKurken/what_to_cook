@@ -2,7 +2,7 @@
 <img src="https://media.giphy.com/media/l2YWtmHKwPyH9RN2U/giphy.gif" width="100%">
 
 
-A site that fetches a random dish from an api and displays: recipe, instructions, link to recipe source and a link to video instructions. Developed using [react](https://reactjs.org/).
+A site that fetches a random dish from an [api](https://www.themealdb.com) and displays: recipe, instructions, link to recipe source and a link to video instructions. Developed using [react](https://reactjs.org/).
 
 ## Documentation
 
