@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://media.giphy.com/media/l2YWtmHKwPyH9RN2U/giphy.gif" height="400px">
+<img src="https://media.giphy.com/media/l2YWtmHKwPyH9RN2U/giphy.gif">
 </p>
 
 A site that fetches a random dish from an api and displays: recipe, instructions, link to recipe source and a link to video instructions. Developed using [react](https://reactjs.org/).
